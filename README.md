@@ -19,5 +19,7 @@ Football match outcomes are inherently unpredictable due to the complex interact
 ## 📁 Repository Structure
 
 Model 1 - Initial model created using RandomForestClasifier and raw web scraped data.
+
 Model 2 - Improved RandomForestClasifier model that is trained on preprocessed data.
+
 Model 3 - Comparison model using LGBMClassifier and optuna to optimize hyperparameters.
