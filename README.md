@@ -11,10 +11,13 @@ Football match outcomes are inherently unpredictable due to the complex interact
 - 🎯 Binary or multi-class prediction of match outcomes.
 - 🌲 Random Forest classifier implementation using `scikit-learn`.
 - ⚡ LightGBM classifier implementation for comparison.
-- 📈 Model evaluation using accuracy, F1-score, precision and recall;
+- 📈 Model evaluation using accuracy, F1-score, precision and recall.
 - 🧼 Data preprocessing including feature engineering (form, goal difference, etc.)
 
 ---
 
 ## 📁 Repository Structure
 
+Model 1 - Initial model created using RandomForestClasifier and raw web scraped data.
+Model 2 - Improved RandomForestClasifier model that is trained on preprocessed data.
+Model 3 - Comparison model using LGBMClassifier and optuna to optimize hyperparameters.
